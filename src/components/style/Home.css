@@ -1,0 +1,107 @@
+#home {
+  padding-top: 70px;
+}
+.home-hello {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffbd39;
+  margin-bottom: 20px;
+  background: none;
+}
+.home-img {
+  height: 90%;
+}
+.home-text {
+  color: white;
+  background: none;
+}
+.home-left {
+  /* text-align: center; */
+  margin-top: 150px;
+  padding-left: 100px;
+  background: none;
+}
+.home-head-1 {
+  font-size: 70px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.home-head-2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.home-name {
+  color: #ffbd39;
+  background: none;
+}
+.btn-cv {
+  background-color: #ffbd39;
+  height: 50px;
+  width: 150px;
+  border-radius: 100px;
+  border: 0px;
+  margin-top: 20px;
+}
+.btn-cv:hover {
+  background-color: white;
+}
+@media only screen and (max-width: 650px) {
+  /* .head-mob{
+    position: relative;
+    }
+    .home-left{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    margin-top: 0px;
+    padding-left: 0px;
+    background: none;
+    opacity: 0.5;
+    }
+    .home-img{
+    max-width: 100%;
+    height: auto; 
+    } */
+
+  .head-mob::before {
+    content: "";
+    background-image: url(images/dinesh.png);
+    opacity: 0.4;
+    position: absolute;
+    height: 100%;
+    width: 415px;
+    top: 15%;
+    right: 0px;
+    bottom: 10%;
+    left: -15%;
+    background-repeat: no-repeat;
+  }
+  .home-left {
+    position: relative;
+    /* text-align: center; */
+    right: 30%;
+  }
+  .home-img {
+    display: none;
+  }
+  .home-head-2 {
+    margin-bottom: 10px;
+  }
+  .btn-cv {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 1000px) and(min-width: 650px) {
+  .home-left {
+    text-align: center;
+    margin-top: 80px;
+    padding-left: 0px;
+    background: none;
+  }
+}

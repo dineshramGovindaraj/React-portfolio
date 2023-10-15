@@ -1,0 +1,38 @@
+#skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.skills-card {
+  margin-top: 50px;
+}
+/* .img-card-1 {
+  width: 100px;
+}
+.img-card-2 {
+  width: 185px;
+}
+.img-card-3 {
+  width: 70px;
+}
+.img-card-4 {
+  width: 100px;
+}
+.img-card-5 {
+  width: 100px;
+}
+.img-card-6 {
+  width: 90px;
+} */
+.img-card {
+  height: 100px;
+}
+.card-bg {
+  background-color: black;
+  border: 1px solid white;
+}
+.card-text {
+  color: #ffff;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

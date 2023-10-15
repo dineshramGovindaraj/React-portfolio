@@ -1,0 +1,49 @@
+* {
+  background-color: black;
+  font-family: "Poppins", Arial, sans-serif;
+}
+body {
+  background-color: black;
+}
+
+/* HEADER */
+#navbar {
+  background-color: black;
+  padding: 10px 30px 10px 30px;
+}
+.nav-text {
+  padding: 8px;
+  font-size: 1.2rem;
+  color: white;
+}
+.nav-text:hover {
+  color: #ffbd39;
+}
+.nav-brand {
+  color: white;
+  font-size: 2rem;
+}
+.nav-brand:hover {
+  color: white;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+nav,
+div,
+ul,
+li {
+  padding: 0px 20px;
+}
+.navbar-toggler {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .nav-text {
+    /* padding: 0px 0px;  */
+    text-align: center;
+  }
+}
+.navbar-toggler-icon {
+  background-image: url(images/toggler-image.png);
+}
